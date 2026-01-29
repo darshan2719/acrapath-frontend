@@ -26,7 +26,7 @@ const JobDetails = () => {
     };
 
     fetchJobDetails();
-  }, [id]); // Fixed: moved function inside useEffect
+  }, [id]); 
 
   const handleApply = async () => {
     if (!user) {
