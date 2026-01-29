@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/acrapath-frontend/static/css/main.f1c383e1.css",
+    "main.js": "/acrapath-frontend/static/js/main.c329c0aa.js",
+    "index.html": "/acrapath-frontend/index.html",
+    "main.f1c383e1.css.map": "/acrapath-frontend/static/css/main.f1c383e1.css.map",
+    "main.c329c0aa.js.map": "/acrapath-frontend/static/js/main.c329c0aa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f1c383e1.css",
+    "static/js/main.c329c0aa.js"
+  ]
+}
