@@ -13,20 +13,20 @@ const JobDetails = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetchJobDetails();
-  }, [id]);
+    const fetchJobDetails = async () => {
+      try {
+        const data = await jobService.getJobById(id);
+        setJob(data);
+      } catch (error) {
+        console.error('Error fetching job:', error);
+        toast.error('Failed to load job details');
+      } finally {
+        setLoading(false);
+      }
+    };
 
-  const fetchJobDetails = async () => {
-    try {
-      const data = await jobService.getJobById(id);
-      setJob(data);
-    } catch (error) {
-      console.error('Error fetching job:', error);
-      toast.error('Failed to load job details');
-    } finally {
-      setLoading(false);
-    }
-  };
+    fetchJobDetails();
+  }, [id]); // Fixed: moved function inside useEffect
 
   const handleApply = async () => {
     if (!user) {
