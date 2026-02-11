@@ -9,6 +9,9 @@ import Register from '../pages/Register';
 import Profile from '../pages/Profile';
 import Dashboard from '../pages/Dashboard';
 import ProtectedRoute from './ProtectedRoute';
+import Companies from '../pages/Companies';
+import Resources from '../pages/Resources';
+import About from '../pages/About';
 
 const AppRoutes = () => {
   return (
@@ -19,6 +22,9 @@ const AppRoutes = () => {
         <Route path="jobs/:id" element={<JobDetails />} />
         <Route path="login" element={<Login />} />
         <Route path="register" element={<Register />} />
+        <Route path="companies" element={<Companies />} />
+        <Route path="resources" element={<Resources />} />
+        <Route path="about" element={<About />} />
         
         {/* Protected Routes */}
         <Route element={<ProtectedRoute />}>
