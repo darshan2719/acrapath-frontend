@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/acrapath-frontend/static/css/main.f1c383e1.css",
-    "main.js": "/acrapath-frontend/static/js/main.c329c0aa.js",
+    "main.css": "/acrapath-frontend/static/css/main.7963f606.css",
+    "main.js": "/acrapath-frontend/static/js/main.6add91bb.js",
     "index.html": "/acrapath-frontend/index.html",
-    "main.f1c383e1.css.map": "/acrapath-frontend/static/css/main.f1c383e1.css.map",
-    "main.c329c0aa.js.map": "/acrapath-frontend/static/js/main.c329c0aa.js.map"
+    "main.7963f606.css.map": "/acrapath-frontend/static/css/main.7963f606.css.map",
+    "main.6add91bb.js.map": "/acrapath-frontend/static/js/main.6add91bb.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1c383e1.css",
-    "static/js/main.c329c0aa.js"
+    "static/css/main.7963f606.css",
+    "static/js/main.6add91bb.js"
   ]
 }
